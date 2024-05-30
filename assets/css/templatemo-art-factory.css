@@ -909,24 +909,24 @@ services
 #services {
   position: relative;
   padding: 120px 0px 90px 0px;
-  background: rgba(222, 137, 83);
+  background: rgba(222, 137, 83, 1);
   background: -moz-linear-gradient(
     -45deg,
-    rgba(222, 137, 83) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(222, 137, 83) 100%
+    rgba(222, 137, 83, 1) 0%,
+    rgba(222, 137, 83, 1) 0%,
+    rgba(222, 137, 83, 1) 100%
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, rgba(222, 137, 83)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
+    color-stop(0%, rgba(222, 137, 83, 1),
+    color-stop(0%, rgba(222, 137, 83, 1)),
     color-stop(100%, rgba(222, 137, 83))
   );
   background: -webkit-linear-gradient(
     -45deg,
     rgba(222, 137, 83) 0%,
-    rgba(0, 182, 198, 1) 0%,
+    rgba(222, 137, 83, 1) 0%,
     rgba(222, 137, 83) 100%
   );
   background: -o-linear-gradient(
@@ -938,7 +938,7 @@ services
   background: -ms-linear-gradient(
     -45deg,
     rgba(222, 137, 83) 0%,
-    rgba(0, 182, 198, 1) 0%,
+    rgba(222, 137, 83, 1) 0%,
     rgba(222, 137, 83) 100%
   );
   background: linear-gradient(
@@ -972,7 +972,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #0088e8;
+  background-color: #f2a758;
 }
 
 .service-item .icon {
@@ -987,7 +987,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #00b4c6;
+  background: #f2ad65;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
