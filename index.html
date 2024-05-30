@@ -35,6 +35,27 @@
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
         </div>
     <![endif]-->
+
+    <style>
+        .panel-title a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .panel-title a .caret {
+            transition: transform 0.3s ease;
+        }
+
+        .panel-title a.collapsed .caret {
+            transform: rotate(0deg);
+        }
+
+        .panel-title a:not(.collapsed) .caret {
+            transform: rotate(90deg);
+        }
+    </style>
+
 </head>
 <body>
     
@@ -54,8 +75,8 @@
                                 <ul class="social-icons">
                                     
                                     
-                                    <li><a href="https://www.linkedin.com/company/liftoffpm/" class="fa fa-linkedin"></a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=2A2UwaPaNgQ" class="fa fa-youtube"></a></li>
+                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fa fa-youtube"></a></li>
                                 </ul>
                             </div> <!-- /.left-header -->
                         </div> <!-- /.col-md-6 -->
@@ -74,8 +95,8 @@
                             <div class="menu text-right hidden-sm hidden-xs">
                                 <ul>
                                     <li><a href="#home">Home</a></li>
-                                    <li><a href="#services">Coaching</a></li>
-                                    <li><a href="#portfolio">Paid Course</a></li>
+                                    <li><a href="#services">What is LiftoffPM?</a></li>
+                                    <li><a href="#portfolio">FAQ</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="mailto:liftoffpm@gmail.com" class="external">Contact Us</a></li>
                                 </ul>
@@ -106,7 +127,7 @@
                 <div class="flex-caption">
                     <h2>Ace your PM Interview</h2>
                     <span></span>
-                    <p>Direct, and practical advice from Senior Product Managers</p> <p> available for free on YouTube
+                    <p>Direct, and practical advice from senior product managers and proven coaches:</p> <p> Lessons available for free on YouTube
                     </p>
                 </div>
             </li>
@@ -115,7 +136,7 @@
                 <div class="flex-caption">
                     <h2>Focus on what matters</h2>
                     <span></span>
-                    <p> Our paid curse curates the most important information </p> <p> so you don't have to parse through thousands of hours of content</p>
+                    <p> Our paid course curates the most important information </p> <p> so you don't have to parse through thousands of hours of content</p>
                 </div>
             </li>
         </ul>
@@ -157,7 +178,7 @@
                             <h3>Paid Course</h3>
                         </div>
                         <div class="service-description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, sapiente, saepe, velit, repellendus doloribus blanditiis repudiandae nobis optio quasi nulla aliquam nisi voluptatibus.
+                            The LiftoffPM paid course includes additional need-to-know content. We've taken great care to curate only the most important information so that you don't need to sift through the thousands of hours of content out there to choose from. 
                         </div>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
@@ -165,10 +186,10 @@
                     <div class="service-item">
                         <div class="service-header">
                             <i class="fa fa-heart"></i>
-                            <h3>Interviews with Industry</h3>
+                            <h3>Proven results from coaches who care</h3>
                         </div>
                         <div class="service-description">
-                            We also have interviewed folks across the industry to ...
+                            Not only do we get our clients results, we also love and find joy in maintaining relationships with them over time. Please do not hesitate to reach out with questions or just to say hi! 
                         </div>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
@@ -176,106 +197,86 @@
         </div> <!-- /.container -->
     </div> <!-- /#services -->
 
-    <div id="portfolio" class="section-content">
+
+<p></p>
+<p></p>
+<p></p>
+<br></br>
+<br></br>
+
+
+
+    <div id="faq" class="section-content">
         <div class="container">
             <div class="title-section text-center">
-                <h2>Paid Course</h2>
+                <h2>FAQ</h2>
                 <span></span>
-            </div> <!-- /.title-section -->
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item1.jpg" alt="Portfolio Item 1">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item1.jpg">Course topic</a></h4>
-                                <span>Product Sense</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item2.jpg" alt="Portfolio Item 2">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item2.jpg">Course topic 2</a></h4>
-                                <span>Analytical</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item3.jpg" alt="Portfolio Item 3">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item3.jpg">Etiam magna</a></h4>
-                                <span>Design</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item4.jpg" alt="Portfolio Item 4">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item4.jpg">Vivamus dignissim</a></h4>
-                                <span>Creative</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-            </div> <!-- /.row -->
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item5.jpg" alt="Portfolio Item 5">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item5.jpg">Fusce semper</a></h4>
-                                <span>HTML CSS</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item6.jpg" alt="Portfolio Item 6">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item6.jpg">Nunc ultrices</a></h4>
-                                <span>Mobile</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item7.jpg" alt="Portfolio Item 7">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item7.jpg">Fusce vehicula</a></h4>
-                                <span>HTML CSS</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/item8.jpg" alt="Portfolio Item 8">
-                        <div class="overlay">
-                            <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item8.jpg">Vivamus elementum</a></h4>
-                                <span>Mobile</span>
-                            </div>
-                        </div> <!-- /.overlay -->
-                    </div> <!-- /.portfolio-thumb -->
-                </div> <!-- /.col-md-3 -->
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </div> <!-- /#portfolio -->
+            </div>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse1" class="collapsed">
+                                What is LiftoffPM?
+                                <span class="caret"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            LiftoffPM is a platform providing interview coaching through a course that is direct and practical. We share lessons that have landed 90+ students in their dream PM roles at FAANG companies and top startups.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2" class="collapsed">
+                                Do you offer free lessons?
+                                <span class="caret"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Yes, we offer free product management interview lessons on our YouTube channel, as well as career advice from PMs and other leaders across the industry.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse3" class="collapsed">
+                                What is included in the paid course?
+                                <span class="caret"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            The LiftoffPM paid course includes additional need-to-know content. We've curated the most important information so that you don't need to sift through thousands of hours of content to find what you need.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse4" class="collapsed">
+                                Who are the coaches?
+                                <span class="caret"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            LiftoffPM is run by senior PMs at Square and Google. We've held product management roles at Google, Square, Amazon, and Coinbase, and have placed over 90+ clients in PM roles at FAANG companies and top startups.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div id="about" class="section-cotent">
         <div class="container">
@@ -286,7 +287,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h4 class="widget-title">About Us</h4>
-                    <p>LiftoffPM is run by senior PMs at Square and Google. We are passionate about helping  <br><br>Aut, nulla, debitis voluptates doloribus quisquam maiores repudiandae nam culpa voluptatibus alias earum magnam numquam. Consectetur, ratione, ipsam totam et nesciunt atque temporibus fuga quos rem deserunt tempore dolore eaque dolorum a doloremque optio nihil pariatur aliquid ex id officiis aliquam sed.</p>
+                    <p>LiftoffPM is run by senior PMs at Square and Google. We are passionate about helping folks land their dream product management roles!  <br><br>We have held product management roles at Google, Square, Amazon, and Coinbase; and combined, we've placed over 90+ clients in PM roles at FAANg companies and top startups. We've both also coached and led content creation on Exponent -- you might have seen us in a few videos!</p>
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-4 our-skills">
                     
@@ -297,10 +298,10 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="images/team/member-1.jpg" alt="Tracy">
+                                <img src="images/team/member-1.jpg" alt="Kevin">
                                 <div class="overlay">
                                     <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="https://www.linkedin.com/in/hkevinwei/" class="fa fa-linkedin"></a></li>
                                         <li><a href="#" class="fa fa-twitter"></a></li>
                                         <li><a href="#" class="fa fa-instagram"></a></li>
                                     </ul>
@@ -316,10 +317,10 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="images/team/member-2.jpg" alt="Mary">
+                                <img src="images/team/member-2.jpg" alt="Selena">
                                 <div class="overlay">
                                     <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
                                         <li><a href="#" class="fa fa-twitter"></a></li>
                                         <li><a href="#" class="fa fa-instagram"></a></li>
                                     </ul>
@@ -327,29 +328,12 @@
                             </div>
                             <div class="inner-content">
                                 <h5>Mary Two</h5>
-                                <span>Product Designer</span>
+                                <span>Senior PM and Founder/span>
                                 <p>Mauris vel lorem non odio accumsan scelerisque. Nullam id augue vel nibh soll.</p>
                             </div>
                         </div> <!-- /.team-member -->
                     </div> <!-- /.col-md-4 -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="images/team/member-3.jpg" alt="Julia">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                </div> <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Julia Three</h5>
-                                <span>Product Manager</span>
-                                <p>Mauris vel lorem non odio accumsan scelerisque. Nullam id augue vel nibh soll.</p>
-                            </div>
-                        </div> <!-- /.team-member -->
+                    
                     </div> <!-- /.col-md-4 -->
                 </div> <!-- /.our-team -->
             </div> <!-- /.row -->
@@ -378,29 +362,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/jquery.lightbox.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript">
 
-        function initialize() {
-          var mapOptions = {
-              scrollwheel: false,
-            zoom: 15,
-            center: new google.maps.LatLng(13.758468,100.567481)
-          };
-
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-        }
-
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
-        }
-
-        window.onload = loadScript;
-    </script>
 
 </body>
 </html>
